@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {background-color:#3C9;
+	background-image:url(file:///C|/xampp/htdocs/onlineShopping/images/spa23.jpg);
+}
+
+
+
+.main_wrapper{
+	width:auto;
+	height:auto;
+	margin:auto;
+	background-color:#FFC;
+	}
+.head_wrapper{
+	width:auto;
+	height:100px;
+	margin:auto;
+	}
+#menubar{
+	width:auto;
+	font-family:'belgrano', serif;
+	height:50px;
+	color:#099;
+	background-image:url(file:///C|/xampp/htdocs/onlineShopping/images/backgroundmenu.gif);
+	border:groove;
+	}
+#menubar li{
+		list-style:none;
+		display:inline;
+		float:left;
+		line-height:40px;}
+
+#menubar a{
+	
+	text-decoration:none;
+	padding:8px;
+	text-shadow:#666;
+	font-size:18px;
+	margin:10px;
+	font-family:'belgrano', serif;
+		}
+#menubar a:hover{
+	color:#CB8688;
+	font-weight:bolder;
+	}
+	#form{
+		float:right;
+		line-height:40px;}
+#box{
+	padding:0px;
+	border-bottom-right-radius:5px;
+	box-shadow:#0C0;
+	box-sizing:content-box;
+	border-top-left-radius:10px;}
+#logo{}
+#btn {
+      padding:5px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  #btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;	}
+.content_wrapper{
+	width:auto;
+	height:auto;
+	margin:0 0 0 0;
+	
+	}
+#content_area{
+	width:75%;
+	height:780px;
+	background-color:#CC9;
+	float:right;}
+
+#sidebar{
+	width:25%
+	height:780px;
+	background-color:#0C9;
+	float:left;
+	
+	}
+#sidebar_title{
+	color:#666;
+	background-color:#FFF;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:16px;
+	text-align:center;
+	
+	}
+#cats{
+	padding:10px;
+	text-align:center;
+	text-decoration:none;
+	}
+
+#cats li{
+	padding:10px;
+	
+	text-decoration:none;
+	}
+#cats a{
+	
+	text-decoration:none;
+	padding:8px;
+	text-shadow:#666;
+	font-family:'belgrano', serif;
+		}
+#cats a:hover{
+	color:#CB8688;
+	font-weight:bolder;
+	}
+	#form{
+		float:right;
+		line-height:40px;}
+#footer{
+	width:auto;
+	height:35px;
+	clear:both;
+	background-color:#9C6;
+	}
+	
+#products_box{
+	width:780px;
+	text:align:center;
+	margin-left:30px;
+	margin-bottom:20px;
+		
+	}
+	
+	#single_product{
+		float:left;
+		padding:10px;
+		margin-left:10px;
+		
+		}	
+	#shopping_bar{
+		width:100%;
+		padding:10px;
+		height:50px;
+		background:#66C;
+		color:#FFF;
+		}
